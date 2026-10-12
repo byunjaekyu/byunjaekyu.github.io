@@ -1,25 +1,120 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ko">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>BYUN JAE-GYU | Artist</title>
-<style>
-body{font-family:Arial,sans-serif;max-width:950px;margin:50px auto;padding:20px;color:#222;background:white;line-height:1.8}
-nav{display:flex;gap:25px;flex-wrap:wrap;border-bottom:1px solid #ccc;padding-bottom:20px}
-a{color:inherit;text-decoration:none}
-h1{font-size:40px;margin-top:75px}
-section{margin-top:65px}
-footer{margin-top:90px;color:#777}
-</style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="변재규 / BYUN JAEKYU — 작품과 연구 아카이브.">
+  <meta name="color-scheme" content="light">
+  <title>변재규 / BYUN JAEKYU</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; }
+    :root { --ink: #222; --muted: #686868; --line: #dededb; --paper: #f5f5f2; }
+    html { scroll-padding-top: 24px; }
+    body { margin: 0; background: #fff; color: var(--ink); font-family: Arial, "Noto Sans KR", "Malgun Gothic", sans-serif; font-size: 16px; line-height: 1.6; -webkit-text-size-adjust: 100%; }
+    a { color: inherit; text-underline-offset: 5px; }
+    a:focus-visible { outline: 2px solid var(--ink); outline-offset: 5px; }
+    .skip-link { position: absolute; top: 8px; left: 8px; padding: 12px 20px; background: #fff; z-index: 2; transform: translateY(-160%); }
+    .skip-link:focus { transform: translateY(0); }
+    .shell { width: min(1280px, 100% - 112px); margin-inline: auto; }
+    .site-header { display: flex; justify-content: space-between; align-items: flex-start; gap: 32px; padding-block: 48px 42px; border-bottom: 1px solid var(--ink); }
+    h1, h2, h3, p { margin: 0; }
+    h1 { font-size: 22px; font-weight: 500; line-height: 1.35; }
+    .name-en { display: block; margin-top: 7px; font-size: 12px; letter-spacing: .12em; }
+    nav { display: flex; flex-wrap: wrap; gap: 8px 28px; }
+    nav a { display: inline-flex; align-items: center; min-height: 44px; font-size: 13px; text-decoration: none; }
+    nav a:hover { text-decoration: underline; }
+    .works { padding-block: 70px 88px; }
+    .section-heading { display: flex; align-items: baseline; gap: 18px; margin-bottom: 32px; }
+    .section-number { color: var(--muted); font-size: 11px; letter-spacing: .06em; }
+    h2 { font-size: 18px; font-weight: 400; letter-spacing: -.02em; }
+    .works-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 54px 32px; list-style: none; margin: 0; padding: 0; }
+    .work { min-width: 0; }
+    .work-image { aspect-ratio: 4 / 3; display: flex; align-items: center; justify-content: center; background: var(--paper); overflow: hidden; }
+    .work-image img { display: block; width: 100%; height: 100%; object-fit: contain; }
+    .placeholder { display: flex; flex-direction: column; align-items: center; gap: 12px; color: var(--muted); font-size: 10px; letter-spacing: .12em; }
+    .placeholder::before { content: ""; width: 23px; height: 18px; border: 1px solid #aaa; }
+    .work-caption { display: flex; align-items: baseline; justify-content: space-between; gap: 16px; margin-top: 17px; }
+    h3 { font-size: 15px; font-weight: 400; line-height: 1.5; overflow-wrap: anywhere; }
+    .year { flex-shrink: 0; font-size: 12px; color: var(--muted); font-variant-numeric: tabular-nums; }
+    .empty-slot .work-image { background: #fff; border: 1px dashed var(--line); }
+    .empty-slot .work-caption { min-height: 24px; }
+    .archive-section { display: grid; grid-template-columns: 1fr 2fr; gap: 32px; min-height: 180px; padding-block: 30px; border-top: 1px solid var(--line); }
+    .archive-section .section-heading { margin-bottom: 0; }
+    .section-content { min-width: 0; }
+    footer { display: flex; justify-content: space-between; gap: 24px; padding-block: 25px 36px; border-top: 1px solid var(--ink); font-size: 10px; letter-spacing: .08em; color: var(--muted); }
+    .sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; border: 0; }
+    @media (min-width: 1500px) { .works { padding-top: 90px; } }
+    @media (max-width: 760px) {
+      .shell { width: calc(100% - 40px); }
+      .site-header { flex-direction: column; gap: 24px; padding-block: 30px 20px; }
+      nav { gap: 4px 24px; }
+      .works { padding-block: 42px 56px; }
+      .works-grid { grid-template-columns: 1fr; gap: 36px; }
+      .section-heading { margin-bottom: 24px; }
+      .archive-section { grid-template-columns: 1fr; gap: 16px; min-height: 150px; }
+      .work-caption { gap: 12px; }
+    }
+    @media print { .skip-link, nav { display: none; } .shell { width: 100%; } .work { break-inside: avoid; } }
+  </style>
 </head>
-<body>
-<nav><strong>BYUN JAE-GYU</strong><a href="#works">Works</a><a href="#research">Research</a><a href="#about">About</a></nav>
-<h1>BYUN JAE-GYU</h1>
-<p>Artist / Researcher</p>
-<section id="works"><h2>Selected Works</h2><p>Elegy for the Remains: Camphor Forest (2018)</p><p>Retouching: Drawing for Erasure (2025)</p><p>Lend Me Your Hand (2025–)</p></section>
-<section id="research"><h2>Research</h2><p>Film, measurement, and technical supports</p></section>
-<section id="about"><h2>About</h2><p>Moving images, photography, installation and artistic research.</p></section>
-<footer>© BYUN JAE-GYU</footer>
+<body id="top">
+  <a class="skip-link" href="#main">본문 바로가기</a>
+  <div class="shell">
+    <header class="site-header">
+      <h1>변재규<span class="name-en" lang="en">BYUN JAEKYU</span></h1>
+      <nav aria-label="주요 메뉴">
+        <a href="#works" lang="en">Works</a>
+        <a href="#research" lang="en">Research</a>
+        <a href="#about" lang="en">About / CV</a>
+        <a href="#contact" lang="en">Contact</a>
+      </nav>
+    </header>
+    <main id="main" tabindex="-1">
+      <section class="works" id="works" aria-labelledby="works-title">
+        <div class="section-heading"><span class="section-number" aria-hidden="true">01</span><h2 id="works-title" lang="en">Selected Works</h2></div>
+        <!-- 작품 수정: 각 li가 작품 한 칸입니다. 위에서 아래로 최신순입니다.
+          사진 등록: work-image 안의 placeholder span을 아래 img로 교체하세요.
+          <img src="images/작품사진.jpg" alt="실제 사진에 보이는 내용을 적으세요" width="1200" height="900" loading="lazy">
+          작품 링크 등록: h3 안 제목을 <a href="실제 작품 주소">작품 제목</a>로 감싸세요.
+          주소가 없는 현재 상태에서는 클릭되지 않는 텍스트로 표시합니다.
+        -->
+        <ol class="works-grid">
+          <li class="work">
+            <article aria-labelledby="work-1">
+              <div class="work-image"><span class="placeholder"><span aria-hidden="true" lang="en">IMAGE TO BE ADDED</span><span class="sr-only">작품 이미지 등록 예정</span></span></div>
+              <div class="work-caption"><h3 id="work-1" lang="en">Lend Me Your Hand</h3><p class="year">2025–</p></div>
+            </article>
+          </li>
+          <li class="work">
+            <article aria-labelledby="work-2">
+              <div class="work-image"><span class="placeholder"><span aria-hidden="true" lang="en">IMAGE TO BE ADDED</span><span class="sr-only">작품 이미지 등록 예정</span></span></div>
+              <div class="work-caption"><h3 id="work-2" lang="en">Retouching: Drawing for Erasure</h3><p class="year">2025</p></div>
+            </article>
+          </li>
+          <li class="work">
+            <article aria-labelledby="work-3">
+              <div class="work-image"><span class="placeholder"><span aria-hidden="true" lang="en">IMAGE TO BE ADDED</span><span class="sr-only">작품 이미지 등록 예정</span></span></div>
+              <div class="work-caption"><h3 id="work-3" lang="en">Elegy for the Remains: Camphor Forest</h3><p class="year">2018</p></div>
+            </article>
+          </li>
+          <!-- 네 번째 작품: 위 li 하나를 복사하여 이 li를 교체하고, 제목의 id와 aria-labelledby를 work-4로 바꾸세요. -->
+          <li class="work empty-slot"><div class="work-image"><span class="sr-only">네 번째 작품을 위한 빈 공간</span></div><div class="work-caption" aria-hidden="true"></div></li>
+        </ol>
+      </section>
+      <section class="archive-section" id="research" aria-labelledby="research-title">
+        <div class="section-heading"><span class="section-number" aria-hidden="true">02</span><h2 id="research-title" lang="en">Research</h2></div>
+        <div class="section-content"><!-- 확인된 연구 내용과 링크를 여기에 추가하세요. --></div>
+      </section>
+      <section class="archive-section" id="about" aria-labelledby="about-title">
+        <div class="section-heading"><span class="section-number" aria-hidden="true">03</span><h2 id="about-title" lang="en">About / CV</h2></div>
+        <div class="section-content"><!-- 작가 소개와 실제 CV 파일 링크를 여기에 추가하세요. --></div>
+      </section>
+      <section class="archive-section" id="contact" aria-labelledby="contact-title">
+        <div class="section-heading"><span class="section-number" aria-hidden="true">04</span><h2 id="contact-title" lang="en">Contact</h2></div>
+        <div class="section-content"><!-- 공개할 연락처를 확인한 후 여기에 추가하세요. --></div>
+      </section>
+    </main>
+    <footer><span lang="en">BYUN JAEKYU</span><a href="#top">맨 위로 ↑</a></footer>
+  </div>
 </body>
 </html>
