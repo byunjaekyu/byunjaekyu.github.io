@@ -89,11 +89,6 @@
         "caption": "설치전경, 갤러리18-1"
       },
       {
-        "file": "works/2024-painting/installation-03.jpg",
-        "type": "installation",
-        "caption": "설치전경, 갤러리18-1"
-      },
-      {
         "file": "works/2024-painting/detail-01.jpg",
         "type": "detail",
         "caption": ""
@@ -127,10 +122,6 @@
       {
         "type": "image",
         "file": "works/2024-painting/installation-01.jpg"
-      },
-      {
-        "type": "image",
-        "file": "works/2024-painting/installation-03.jpg"
       },
       {
         "type": "image",
