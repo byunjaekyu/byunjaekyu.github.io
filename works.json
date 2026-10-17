@@ -196,6 +196,25 @@
     "slug": "2023-magritte"
   },
   {
+    "title": "엑스타시",
+    "english_title": "Ecstasy",
+    "year": 2022,
+    "medium": "FHD 싱글채널영상 · 13분",
+    "cover": "works/2022-ecstasy/image01.png",
+    "images": [],
+    "layout": [
+      {
+        "type": "text",
+        "paragraphs": [
+          "1974년 영화 <황홀>을 인용한 아카이브 경향의 영상작품이 제작되었다.",
+          "영화는 1964년 김승옥의 소설<무진기행>으로부터 무진과 순천, 무진과 광진, 광진과 순천, 전라선 동순천역, 버스의 도착 동방여객과 합동정류소 등 순천의 역사적 사실과 소설의 허구를 교차하여 다루고 있으며 영화의 촬영지를 영화의 장면과 함께 사진도상적 이미지의 교차와 합성을 통해 제작했다."
+        ]
+      }
+    ],
+    "description": "",
+    "slug": "2022-ecstasy"
+  },
+  {
     "title": "소금창고",
     "english_title": "Salt Barn",
     "year": 2021,
