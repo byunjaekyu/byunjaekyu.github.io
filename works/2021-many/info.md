@@ -4,7 +4,7 @@ english_title: Many a Little Makes a Mickle
 year: 2021
 medium: 카세트테이프, 마그네틱 헤드, 루프 구조
 video: https://vimeo.com/696450317
-video_embed: false
+video_embed: true
 links:
   - label: Vimeo에서 영상 재생
     url: https://vimeo.com/696450317
