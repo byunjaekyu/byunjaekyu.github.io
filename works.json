@@ -410,7 +410,8 @@
       },
       {
         "type": "image",
-        "file": "works/2018-3-2/scan600dpi_17.jpg"
+        "file": "works/2018-3-2/scan600dpi_17.jpg",
+        "width": "60%"
       }
     ],
     "cover": "",
