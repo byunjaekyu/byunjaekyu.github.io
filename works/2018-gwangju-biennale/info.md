@@ -29,14 +29,16 @@ layout:
   - 일반적인 극영화 역시 이야기를 통해 우리의 모습을 반추하고 상기시킨다. 그러나 이 작업에서 인간사의 욕망 자체를 재현하고자 하는 것은 아니다. 나는 이야기화되지 않고 개념화되지 않은 어떤 지각적 현상들을 작품을 통해 드러내고자 한다.
   - 예컨대 영화는 연속된 두 프레임 사이에서 중간적인 지각 단계를 거쳐, 물질적으로는 존재하지 않는 가공의 이미지를 생산한다. 시각화된 두 물질적 표면 사이, 곧 프레임의 사이(in-between)에는 관객의 정신적·의식적 활동이 개입하며 하나의 이미지와 환영이 성립한다.
   - 일반적인 관객은 이러한 과정을 거의 의식하지 못한다. 그러나 영화적 이미지의 성립에는 우리의 의식과 무의식이 개입하며, 이는 우리가 무엇을, 어떻게 지각하고자 하는가 하는 욕망의 문제와도 깊이 관련되어 있다.
+- type: image
+  file: gwangju-biennale-installation.jpg
+  width: 100%
 - type: image-pair
   files:
   - somewhere-over-the-rainbow-installation.jpg
   - somewhere-over-the-rainbow-detail.jpg
-- type: image-pair
-  files:
-  - gwangju-biennale-installation.jpg
-  - epoxy-film-main.jpg
+- type: image
+  file: epoxy-film-main.jpg
+  width: 60%
 ---
 
 〈에폭시 필름〉과 〈섬웨어 오버 더 레인보우〉는 2018년 광주비엔날레 출품을 위해 제작되었다.
