@@ -1,0 +1,183 @@
+{
+  "groups": [
+    {
+      "id": "papers",
+      "title": "Research Papers",
+      "subtitle": "연구논문"
+    },
+    {
+      "id": "reviews",
+      "title": "Reviews & Critiques",
+      "subtitle": "비평문"
+    },
+    {
+      "id": "interviews",
+      "title": "Interviews & Articles",
+      "subtitle": "인터뷰 · 기사 · 자료"
+    }
+  ],
+  "items": [
+    {
+      "category": "papers",
+      "title": "포스트 매체: 기술적 지지체의 사정범위",
+      "year": "2026",
+      "source": "예술교육연구 24권 2호",
+      "note": "",
+      "file": "texts/papers/2026-post-medium.pdf",
+      "format": "PDF"
+    },
+    {
+      "category": "papers",
+      "title": "플리커 영화: 빛의 현상학에 대한 탐구",
+      "year": "2025",
+      "source": "디지털콘텐츠학회논문지 26권 7호",
+      "note": "",
+      "file": "texts/papers/2025-flicker-film.pdf",
+      "format": "PDF"
+    },
+    {
+      "category": "papers",
+      "title": "프레임 이미지의 사이에 관한 연구: 19세기 광학기기와 구조영화의 고정되지 않는 깊이감",
+      "year": "2023",
+      "source": "아시아영화연구 16권 2호",
+      "note": "",
+      "file": "texts/papers/2023-between-frame-images.pdf",
+      "format": "PDF"
+    },
+    {
+      "category": "papers",
+      "title": "본다는 것의 매체적 성찰",
+      "year": "2021",
+      "source": "아시아영화연구 14권 1호",
+      "note": "",
+      "file": "texts/papers/2021-seeing-medium.pdf",
+      "format": "PDF"
+    },
+    {
+      "category": "papers",
+      "title": "측정과 조각적 행위",
+      "year": "2017",
+      "source": "예술과 미디어",
+      "note": "",
+      "file": "texts/papers/2017-measurement-sculptural-activity.pdf",
+      "format": "PDF"
+    },
+    {
+      "category": "papers",
+      "title": "프레임 구축의 미학: 이토 다카시의 작품 〈Spacy〉를 중심으로",
+      "year": "2013",
+      "source": "한국영상학회논문집 제11권 제1호",
+      "note": "",
+      "file": "texts/papers/2013-frame-construction.pdf",
+      "format": "PDF"
+    },
+    {
+      "category": "papers",
+      "title": "공간경험의 구축에 관한 작품연구",
+      "year": "2011",
+      "source": "교토세이카대학교 박사학위논문 · 일본어",
+      "note": "",
+      "file": "texts/papers/2011-spatial-experience-dissertation.pdf",
+      "format": "PDF"
+    },
+    {
+      "category": "reviews",
+      "title": "〈거울셔터〉 관련 글 (3인)",
+      "year": "",
+      "source": "예술공간 영주맨션",
+      "note": "HWP 원문",
+      "file": "texts/reviews/mirror-shutter-three-authors.hwp",
+      "format": "HWP"
+    },
+    {
+      "category": "reviews",
+      "title": "변재규 관련 글",
+      "year": "",
+      "source": "이행준",
+      "note": "HWP 원문 · 파일명 기준",
+      "file": "texts/reviews/lee-haengjun-text.hwp",
+      "format": "HWP"
+    },
+    {
+      "category": "reviews",
+      "title": "볼 수 있는 것과 볼 수 없는 것",
+      "year": "",
+      "source": "인문예술잡지 F · 사진측량 관련 글",
+      "note": "",
+      "file": "texts/reviews/f-visible-invisible.pdf",
+      "format": "PDF"
+    },
+    {
+      "category": "reviews",
+      "title": "비평원고",
+      "year": "",
+      "source": "허명진",
+      "note": "HWP 원문 · 파일명 기준",
+      "file": "texts/reviews/heo-myeongjin-criticism.hwp",
+      "format": "HWP"
+    },
+    {
+      "category": "reviews",
+      "title": "사진측량 관련 비평",
+      "year": "",
+      "source": "방혜진",
+      "note": "HWP 원문 · 파일명 기준",
+      "file": "texts/reviews/bang-hyejin-photogrammetry.hwp",
+      "format": "HWP"
+    },
+    {
+      "category": "reviews",
+      "title": "수공영화 — 전시평",
+      "year": "",
+      "source": "",
+      "note": "HWP 원문",
+      "file": "texts/reviews/handmade-film-review.hwp",
+      "format": "HWP"
+    },
+    {
+      "category": "interviews",
+      "title": "수공영화에 담긴 뜻은",
+      "year": "2015",
+      "source": "박정민 · 국제신문 · 2015.11.17",
+      "note": "기사",
+      "file": "texts/interviews/2015-kookje-handmade-film.pdf",
+      "format": "PDF"
+    },
+    {
+      "category": "interviews",
+      "title": "〈기억과 증명〉 프로젝트 — 사진측량",
+      "year": "2012",
+      "source": "예술공간 돈키호테",
+      "note": "전시 자료",
+      "file": "texts/interviews/2012-memory-evidence-exhibition.pdf",
+      "format": "PDF"
+    },
+    {
+      "category": "interviews",
+      "title": "어떤 비디오 아티스트의 길",
+      "year": "2012",
+      "source": "부산일보 · 2012.05.18",
+      "note": "기사",
+      "file": "texts/interviews/2012-busan-ilbo-video-artist.pdf",
+      "format": "PDF"
+    },
+    {
+      "category": "interviews",
+      "title": "Interview with Jaekyu",
+      "year": "",
+      "source": "Film Appreciation Journal",
+      "note": "인터뷰 · 원문",
+      "file": "texts/interviews/interview-film-appreciation-journal.pdf",
+      "format": "PDF"
+    },
+    {
+      "category": "interviews",
+      "title": "인터뷰·평론 자료집",
+      "year": "",
+      "source": "",
+      "note": "합본 PDF",
+      "file": "texts/interviews/interviews-and-criticism-collection.pdf",
+      "format": "PDF"
+    }
+  ]
+}
