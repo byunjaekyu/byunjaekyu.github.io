@@ -3,11 +3,11 @@ title: '잔해를 위한 애가: 녹나무 숲'
 english_title: 'Elegy for the Remains: Cinamomum camphora'
 year: 2018
 medium: 녹나무 잎, 렌즈, 필름, 퍼포레이션 장치, LED, PET 필름, 3D 프린팅 · 240 × 40 × 31 cm
-cover: cover_process.jpg
+cover: cover_kyushu.jpg
 images:
-- file: cover_process.jpg
+- file: cover_kyushu.jpg
   type: hero
-  caption: '〈잔해를 위한 애가: 녹나무 숲〉, 큐슈예문관, 2018'
+  caption: '〈잔해를 위한 애가: 녹나무숲〉 큐슈예문관 설치전경(2018)'
 - file: installation02.jpg
   type: installation
   caption: '〈잔해를 위한 애가: 녹나무 숲〉, 설치전경, 부산현대미술관, 2025'
