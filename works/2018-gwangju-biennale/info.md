@@ -38,7 +38,7 @@ layout:
   - somewhere-over-the-rainbow-detail.jpg
 - type: image
   file: epoxy-film-main.jpg
-  width: 140%
+  width: 160%
 ---
 
 〈에폭시 필름〉과 〈섬웨어 오버 더 레인보우〉는 2018년 광주비엔날레 출품을 위해 제작되었다.
