@@ -17,7 +17,7 @@ images:
   type: detail
   caption: ''
 - file: detail-02.jpg
-  type: detail
+  type: hero
   caption: '〈Untitle #8〉 550*790 (2024)'
 layout:
 - type: text
