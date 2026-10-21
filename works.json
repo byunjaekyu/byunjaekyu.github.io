@@ -88,6 +88,11 @@
     "cover": "works/2024-painting/main.jpg",
     "images": [
       {
+        "file": "works/2024-painting/main.jpg",
+        "type": "hero",
+        "caption": "〈Untitle #9〉 550*790 (2024)"
+      },
+      {
         "file": "works/2024-painting/installation-01.jpg",
         "type": "installation",
         "caption": "설치전경, 갤러리18-1"
@@ -105,7 +110,7 @@
       {
         "file": "works/2024-painting/detail-02.jpg",
         "type": "detail",
-        "caption": ""
+        "caption": "〈Untitle #8〉 550*790 (2024)"
       }
     ],
     "layout": [
@@ -117,7 +122,8 @@
       },
       {
         "type": "image",
-        "file": "works/2024-painting/detail-02.jpg"
+        "file": "works/2024-painting/detail-02.jpg",
+        "width": "100%"
       },
       {
         "type": "image",
