@@ -18,7 +18,7 @@
       "title": "포스트 매체: 기술적 지지체의 사정범위",
       "source": "예술교육연구 24권 2호",
       "note": "",
-      "pdf": "texts/interviews/2026_포스트매체 기술적 지지체의 사정범위.pdf"
+      "pdf": "texts/2026_포스트매체 기술적 지지체의 사정범위.pdf"
     },
     {
       "category": "papers",
@@ -26,7 +26,7 @@
       "title": "플리커 영화: 빛의 현상학에 대한 탐구",
       "source": "디지털콘텐츠학회논문지 26권 7호",
       "note": "",
-      "pdf": "texts/interviews/2025_플리커 영화 빛의 현상학에 대한 탐구.pdf"
+      "pdf": "texts/2025_플리커 영화 빛의 현상학에 대한 탐구.pdf"
     },
     {
       "category": "papers",
@@ -34,7 +34,7 @@
       "title": "프레임 이미지의 사이에 관한 연구: 19세기 광학기기와 구조영화의 고정되지 않는 깊이감",
       "source": "아시아영화연구 16권 2호",
       "note": "",
-      "pdf": "texts/interviews/2023_프레임 이미지의 사이에 관한 연구  19세기 광학기기와 구조영화의 고정되지 않는 깊이감.pdf"
+      "pdf": "texts/2023_프레임 이미지의 사이에 관한 연구  19세기 광학기기와 구조영화의 고정되지 않는 깊이감.pdf"
     },
     {
       "category": "papers",
@@ -42,7 +42,7 @@
       "title": "본다는 것의 매체적 성찰",
       "source": "아시아영화연구 14권 1호",
       "note": "",
-      "pdf": "texts/interviews/2021_본다는 것의 매체적 성찰.pdf"
+      "pdf": "texts/2021_본다는 것의 매체적 성찰.pdf"
     },
     {
       "category": "papers",
@@ -50,7 +50,7 @@
       "title": "측정과 조각적 행위",
       "source": "예술과 미디어",
       "note": "",
-      "pdf": "texts/interviews/2017_측정과 조각적 행위_예술과미디어학회.pdf"
+      "pdf": "texts/2017_측정과 조각적 행위_예술과미디어학회.pdf"
     },
     {
       "category": "papers",
@@ -58,7 +58,7 @@
       "title": "프레임 구축의 미학: 이토 다카시의 작품 〈Spacy〉를 중심으로",
       "source": "한국영상학회논문집 제11권 제1호",
       "note": "",
-      "pdf": "texts/interviews/2013_프레임_구축의_미학_한국영상학회.pdf"
+      "pdf": "texts/2013_프레임_구축의_미학_한국영상학회.pdf"
     },
     {
       "category": "papers",
@@ -73,105 +73,144 @@
       "year": "2021",
       "title": "노수인·김수정·이봉미, 《거울셔터》 관련 글 3편",
       "source": "《거울셔터》 전시 · 예술공간 영주맨션 · 2021",
-      "note": ""
+      "note": "",
+      "pdf": "texts/2021 《거울셔터》_예술공간 영주맨션_거울셔터_글(3인).pdf"
     },
     {
       "category": "media",
       "year": "2018",
       "title": "이행준, 「풍경의 축과 기억흔적: 변재규의 프레임」",
       "source": "《Matrics 3》 전시 글 · 2018",
-      "note": ""
+      "note": "",
+      "pdf": "texts/2018 《matrics3》_이행준 — 「풍경의 축과 기억흔적 변재규의 프레임」.pdf"
+    },
+    {
+      "category": "media",
+      "year": "2016",
+      "title": "김영준, 《WAVE_GROOVE》 전시 글",
+      "source": "부산시립미술관 용두산미술전시관 · 2016",
+      "note": "",
+      "pdf": ""
     },
     {
       "category": "media",
       "year": "2015",
       "title": "박정민, 「수공영화에 담긴 뜻은」",
       "source": "국제신문 · 2015.11.17",
-      "note": ""
+      "note": "",
+      "pdf": ""
     },
     {
       "category": "media",
       "year": "2015",
       "title": "이영준, 「변재규의 수공영화: 시선에 대한 메타비평적 다큐멘터리」",
       "source": "《수공영화》 전시 서문 · 2015",
-      "note": ""
+      "note": "",
+      "pdf": "texts/2015 《수공영화》_이영준 — 「변재규의 수공영화」.pdf"
     },
     {
       "category": "media",
       "year": "2013",
       "title": "방혜진, 「변재규 〈사진 측량〉: 볼 수 있는 것과 볼 수 없는 것」",
       "source": "『인문예술잡지 F』 제11호 · 문지문화원 사이 · 2013.10.31",
-      "note": ""
+      "note": "",
+      "pdf": "texts/2013 《사진측량》 방혜진 _볼 수 있는 것과 볼 수 없는 것.pdf"
     },
     {
       "category": "media",
       "year": "2013",
       "title": "허명진, 「빨려드는 잔영 너머의 공백을 찾아서」",
       "source": "『묘책』 · 예술공간 돈키호테 · 2013",
-      "note": ""
+      "note": "",
+      "pdf": "texts/2013 《사진측량》_허명진 — 「빨려드는 잔영 너머의 공백을 찾아서」.pdf"
+    },
+    {
+      "category": "media",
+      "year": "2012",
+      "title": "이명훈, 「변재규의 움직이는 사진」",
+      "source": "『작가연구_묘책』 제1호 · 2012.08",
+      "note": "",
+      "pdf": "texts/2012 묘책1호_이명훈_변재규의 움직이는 시선.pdf"
+    },
+    {
+      "category": "media",
+      "year": "2011",
+      "title": "김만석, 부산청년미술상 수상전 글",
+      "source": "부산청년미술상 수상전 · 2011",
+      "note": "",
+      "pdf": ""
     },
     {
       "category": "media",
       "year": "2011",
       "title": "「이달의 인물포커스」",
       "source": "사단법인 목요학술회 · 2011.04",
-      "note": ""
+      "note": "",
+      "pdf": ""
     },
     {
       "category": "media",
       "year": "2011",
       "title": "「인물 크로키」",
       "source": "KBS 부산 《TV 문화속으로》 · 2011.02",
-      "note": ""
+      "note": "",
+      "pdf": ""
     },
     {
       "category": "media",
       "year": "2010",
       "title": "이상헌, 「원뿔 스크린 속에 담긴 현대성」",
       "source": "부산일보 · 2010.12",
-      "note": ""
+      "note": "",
+      "pdf": ""
     },
     {
       "category": "media",
       "year": "2010",
       "title": "이행준 인터뷰 · 林明玉 번역, 「流動的全景，漂移的記憶：訪卞在奎」",
       "source": "『電影欣賞』 제145호 · 2010.10–12 · pp. 31–34",
-      "note": ""
+      "note": "",
+      "pdf": "texts/2010_이행준_변재규인터뷰_電影欣賞_145호.pdf"
     },
     {
       "category": "media",
       "year": "2010",
       "title": "성숙희, 「카메라로 녹여내는 향수, 새로운 시작」",
       "source": "사하 인터넷뉴스 · 2010.07",
-      "note": ""
+      "note": "",
+      "pdf": ""
     },
     {
       "category": "media",
       "year": "2009",
       "title": "이상헌, 「도시의 일상… 부산타워 다양한 풍경 ‘관객은 행복해’」",
-      "source": "부산일보 · 2009.10 · 제목 확인 필요",
-      "note": ""
+      "source": "부산일보 · 2009.10",
+      "note": "",
+      "pdf": ""
     },
     {
       "category": "media",
       "year": "2009",
       "title": "이행준, 「변재규와 인터뷰」",
       "source": "《아시아 실험영화》 · 2009.08",
-      "note": ""
+      "note": "",
+      "pdf": "texts/2009 이행준, “변재규와 인터뷰”, 아시아실험영화.pdf"
     },
     {
       "category": "media",
       "year": "2007",
       "title": "「무빙파노라마의 변재규 감독 인터뷰」",
       "source": "《레스페스트: 미래를 돌아보다》 · 2007.06",
-      "note": ""
+      "note": "",
+      "pdf": ""
     },
     {
       "category": "media",
       "year": "2007",
       "title": "「실험영상부문」",
       "source": "NHK 《디지스타》 · 2007.04",
-      "note": ""
+      "note": "",
+      "pdf": ""
     }
   ]
 }
