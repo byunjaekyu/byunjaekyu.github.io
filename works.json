@@ -834,7 +834,7 @@
     "year": 2014,
     "medium": "필름, 램프, 회전 구조체, 렌즈, 거울, 센서의 설치",
     "video": "https://vimeo.com/201798640",
-    "video_caption": "〈영화의 빛나는 밤〉 영상 (2014)",
+    "video_caption": "〈영화의 빛나는 밤〉 부산시립미술관 2014",
     "cover": "works/2014-brilliant-night-of-film/image01.jpg",
     "cover_width": "80%",
     "images": [
@@ -874,7 +874,7 @@
       {
         "type": "image",
         "file": "works/2014-brilliant-night-of-film/installation-02.jpg",
-        "width": "85%",
+        "width": "90%",
         "align": "center"
       },
       {
@@ -887,7 +887,7 @@
       {
         "type": "image",
         "file": "works/2014-brilliant-night-of-film/detail03.jpg",
-        "width": "60%",
+        "width": "70%",
         "align": "center"
       }
     ],
