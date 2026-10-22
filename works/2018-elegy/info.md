@@ -7,13 +7,13 @@ cover: cover_kyushu.jpg
 images:
 - file: cover_kyushu.jpg
   type: hero
-  caption: '〈잔해를 위한 애가: 녹나무숲〉 큐슈예문관 설치전경(2018)'
+  caption: '〈잔해를 위한 애가: 녹나무 숲〉 큐슈 예문관 2018'
 - file: installation02.jpg
   type: installation
-  caption: '〈잔해를 위한 애가: 녹나무 숲〉, 설치전경, 부산현대미술관, 2025'
+  caption: '〈잔해를 위한 애가: 녹나무 숲〉부산현대미술관 2025'
 - file: installation01.jpg
   type: installation
-  caption: '〈잔해를 위한 애가: 녹나무 숲〉, 설치전경, 홍티아트센터, 2018'
+  caption: '〈잔해를 위한 애가: 녹나무 숲〉홍티아트센터 2018'
 - file: making01.jpg
   type: making
   caption: 60mm 수제 필름
