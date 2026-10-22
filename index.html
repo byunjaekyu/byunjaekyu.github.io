@@ -217,7 +217,7 @@ fetch('texts.json').then(r=>{if(!r.ok)throw Error('texts.json 파일을 찾을 �
   const items=(catalog.items||[]).filter(item=>item.category===group.id);
   return `<section class="text-archive-section"><h2>${safe(group.title)}</h2><p class="text-subtitle">${safe(group.subtitle)} · ${items.length}</p>${items.map(item=>{
    const pdf=String(item.pdf||'').trim();
-   const hasPdf=/^texts\/interviews\/[^?#]+\.pdf$/i.test(pdf);
+   const hasPdf=/^texts\/[^?#]+\.pdf$/i.test(pdf);
    const title=hasPdf
      ?`<a class="text-entry-title text-entry-pdf" href="${safe(encodeURI(pdf))}" target="_blank" rel="noopener noreferrer" title="논문 PDF 열기">${safe(item.title)} ↗</a>`
      :`<span class="text-entry-title">${safe(item.title)}</span>`;
