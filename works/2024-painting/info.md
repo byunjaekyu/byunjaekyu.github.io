@@ -6,7 +6,7 @@ cover: main.jpg
 images:
 - file: main.jpg
   type: hero
-  caption: '〈Untitle #9〉 550*790 (2024)'
+  caption: '〈Untitle #9〉 550*790mm 2024'
 - file: installation-01.jpg
   type: installation
   caption: 설치전경, 갤러리18-1
@@ -18,7 +18,7 @@ images:
   caption: ''
 - file: detail-02.jpg
   type: hero
-  caption: '〈Untitle #8〉 550*790 (2024)'
+  caption: '〈Untitle #8〉 550*790mm 2024'
 layout:
 - type: text
   paragraphs:
