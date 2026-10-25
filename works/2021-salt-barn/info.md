@@ -6,14 +6,6 @@ year: 2021
 medium: 렌즈, LED 램프, 광경화 레진 · 1770 × 1200 × 1400 mm
 video: https://vimeo.com/716616738
 
-
----
-title: 소금창고
-english_title: Salt Barn
-year: 2021
-medium: 렌즈, LED 램프, 광경화 레진 · 1770 × 1200 × 1400 mm
-video: https://vimeo.com/716616738
-
 images:
   - file: installation01.jpg
     type: installation
