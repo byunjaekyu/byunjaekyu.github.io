@@ -17,7 +17,7 @@ images:
 
   - file: detail01.jpg
     type: detail
-    width: 65%
+    width: 80%
     align: center
     caption: 장치 구성도
     caption_align: center
