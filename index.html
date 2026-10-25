@@ -9,7 +9,46 @@
 
 /* Texts archive: catalog is maintained in texts.json. */
 .texts-intro{margin:18px 0 35px;color:#666;font-size:13px;line-height:1.9}.text-groups{max-width:850px}.text-archive-section{margin:0 0 48px}.text-archive-section h2{font-size:18px;font-weight:500;margin:0 0 6px}.text-archive-section .text-subtitle{font-size:12px;color:#888;margin:0 0 18px}.text-entry{display:grid;grid-template-columns:54px minmax(0,1fr);gap:12px;padding:13px 0;border-top:1px solid #eee}.text-entry-year{color:#888;font-size:12px;padding-top:3px}.text-entry-title{font-size:14px;text-decoration:none;line-height:1.65}.text-entry-title:hover{text-decoration:none}.text-entry-pdf{text-decoration:underline;text-underline-offset:3px}.text-entry-pdf:hover{text-decoration:underline}.text-entry-meta{color:#888;font-size:12px;line-height:1.65;margin:4px 0 0}@media(max-width:720px){.text-entry{grid-template-columns:44px minmax(0,1fr);gap:7px}.texts-intro{margin-bottom:25px}}
+/* 작품 메뉴와 본문 배치 */
+.layout {
+  display: grid;
+  grid-template-columns: 18% minmax(0, 1fr);
+  gap: 4%;
+  padding: 35px 4%;
+}
 
+/* 작품 본문 영역 중앙 정렬 */
+main {
+  width: 100%;
+  max-width: none;
+  min-width: 0;
+}
+
+#work-content {
+  width: 100%;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* 작품 설명 중앙 정렬 */
+.editorial-text {
+  width: 90%;
+  max-width: 760px;
+  margin: 44px auto 48px;
+}
+
+@media (max-width: 720px) {
+  .layout {
+    display: block;
+    padding: 20px;
+  }
+
+  #work-content,
+  .editorial-text {
+    width: 100%;
+  }
+}
 </style></head><body><header><strong>변재규 | BYUN JAEKYU</strong><nav><a href="#works">Works</a><a href="#texts">Texts</a><a href="#about">About</a><a href="#cv">CV</a><a href="#contact">Contact</a></nav></header><div class="layout"><aside id="work-list" aria-label="Works"></aside><main><div id="work-content"></div><section class="section" id="texts"><h1>Texts</h1><p class="texts-intro">연구논문과 비평문을 정리했습니다. 원문이 등록된 논문은 제목을 클릭하면 PDF가 열립니다.</p><div class="text-groups" id="texts-list"><p>자료를 불러오는 중입니다.</p></div></section><section class="section" id="about"><h1>About</h1><div class="profile"><h2>변재규 <span>(Byun Jae-kyu)</span></h2><p class="bio-meta">Artist · b. 1975</p><p>그는 풍경의 파노라마적 재해석을 시도한 영상 설치 작업을 시작한 이래, 영화적 장치와 지각적 메커니즘의 관계에 대한 실험에 몰두해 왔다. 최근에는 회화를 ‘그리는’ 행위로 보기보다는 시각적 구조물을 ‘만드는’ 과정으로 접근하고 있으며, 이러한 작업과 병행하여 관련된 이론적 연구 및 리서치를 진행하고 있다. 주요 전시로 광주비엔날레 (2018), “욕망의 메트로폴리스” 전 (2016), 국립현대미술관 서울관 개관전 (2013)에 참가하였으며 서울국제실험영화페스티벌, 부산비디오페스티벌, 서울뉴미디어페스티벌, 서울독립영화제, 폴란드 국립미술관 미디어아트비엔날레, 오스나브릭 유러피언 미디어아트 페스티벌, 함부르크 국제 단편영화제 등에서 그의 작품이 상영되었다.</p></div></section><section class="section" id="cv"><h1>CV</h1><div class="cv-content"><section class="cv-group"><h2>Education</h2><div class="cv-entry"><span class="cv-year">2011</span><span>쿄토 세이카 대학교 대학원 예술연구전공 박사후기 (PhD)</span></div>
 <div class="cv-entry"><span class="cv-year">2007</span><span>쿄토 세이카 대학교 대학원 예술연구전공 박사전기 (MFA)</span></div>
 <div class="cv-entry"><span class="cv-year">2005</span><span>쿄토 세이카 대학교 영상전공 졸업 학사 (BFA)</span></div></section>
