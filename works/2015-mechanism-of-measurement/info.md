@@ -33,10 +33,6 @@ layout:
   width: 60%
   align: center
 - type: image
-  file: installation-04.jpg
-  width: 60%
-  align: center
-- type: image
   file: installation-05.jpg
   width: 80%
   align: center
@@ -44,10 +40,6 @@ layout:
   files:
   - detail-01.png
   - detail-02.png
-- type: image
-  file: detail-03.png
-  width: 60%
-  align: center
 ---
 
 이 작품은 2015년, 2016년, 2019년 세 가지 버전으로 제작되었다. 2015년 개인전에서 처음 선보였으며, 2016년에는 현재는 사라진 부산시립미술관 용두산 분관에서 《타워를 위한 물질적 조성》(2016)이라는 제목으로 제작되었다. 2019년 버전은 기존의 설치 형태를 보관이 용이한 형태로 재제작한 것이다.
