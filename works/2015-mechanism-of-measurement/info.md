@@ -4,6 +4,7 @@ year: 2015
 medium: 수공영사기와 OHP 컬러 프린트 필름
 display_year: 2015 / 2016 / 2019
 cover: image03.png
+cover_caption: <측정의 메커니즘> 스페이스 비아트 2015
 images:
 - file: installation-02.jpg
   type: installation
