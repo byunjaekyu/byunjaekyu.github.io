@@ -6,7 +6,7 @@ medium: 카세트테이프, 마그네틱 헤드, 루프 구조
 video: ''
 cover: installation01.jpg
 cover_width: 85%
-cover_caption: "가랑비에 옷 젖는다, 예술공간 영주맨션 (2021)"
+cover_caption: "<가랑비에 옷 젖는다> 예술공간 영주맨션 2021"
 cover_caption_align: center
 cover_caption_position: bottom
 links:
@@ -15,10 +15,10 @@ links:
 images:
 - file: installation01.jpg
   type: installation
-  caption: "가랑비에 옷 젖는다, 예술공간 영주맨션 (2021)"
+  caption:  "<가랑비에 옷 젖는다> 예술공간 영주맨션 2021"
 - file: detail01.jpg
   type: detail
-  caption: "가랑비에 옷 젖는다 (부분)"
+  caption: "<가랑비에 옷 젖는다> (부분)"
   width: 65%
   align: center
   caption_align: center
