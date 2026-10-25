@@ -6,7 +6,7 @@ cover: image01.png
 images:
 - file: image01.png
   type: hero
-  caption: '〈황홀: 1974 황홀 필름 로케이션 어카이브〉 (2022)'
+  caption: '〈황홀: 1974 황홀 필름 로케이션 어카이브〉 2022'
 - file: ecstasy-location-archive-stills.jpg
   type: detail
   caption: '〈황홀: 1974 황홀 필름 로케이션 어카이브〉 캡처 이미지'
