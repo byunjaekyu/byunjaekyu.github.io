@@ -19,9 +19,6 @@ images:
 - file: detail-02.png
   type: detail
   caption: ''
-- file: detail-03.png
-  type: detail
-  caption: 타워를 위한 물질적 조성 (OHP 출력 이미지)
 layout:
 - type: text
   paragraphs:
@@ -37,11 +34,11 @@ layout:
   align: center
 - type: image
   file: installation-04.jpg
-  width: 70%
+  width: 60%
   align: center
 - type: image
   file: installation-05.jpg
-  width: 60%
+  width: 80%
   align: center
 - type: image-pair
   files:
