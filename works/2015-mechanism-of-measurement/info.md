@@ -5,17 +5,17 @@ medium: 수공영사기와 OHP 컬러 프린트 필름
 display_year: 2015 / 2016 / 2019
 cover: image03.png
 cover_width: 80%
-cover_caption: "〈측정의 메커니즘〉, 스페이스 비아트 (2015)"
+cover_caption: "〈측정의 메커니즘〉, 스페이스 비아트 2015"
 images:
 - file: installation-02.jpg
   type: installation
-  caption: 설치전경, 부산시립미술관 용두산 분관 (2016)
+  caption: 설치전경, 부산시립미술관 용두산 분관 2016
 - file: installation-04.jpg
   type: installation
-  caption: 설치전경, 부산시립미술관 용두산 분관 (2016)
+  caption: 설치전경, 부산시립미술관 용두산 분관 2016
 - file: installation-05.jpg
   type: installation
-  caption: MMCA 소장 (2019)
+  caption: MMCA 소장 2019
 - file: detail-01.png
   type: detail
   caption: 필름 투영이미지
