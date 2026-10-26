@@ -13,7 +13,7 @@ images:
   caption: 사진더미와 장갑, 갤러리 18-1 2014
 - file: image01.jpg
   type: detail
-  caption: 소금창고의 사진
+  caption: <소금창고> 820x567mm archival pigment print 2013
 layout:
 - type: text
   paragraphs:
