@@ -1,27 +1,32 @@
+
 ---
 title: "4 : 3_그 곳"
 year: 2012
 medium: 싱글채널 설치
 cover: image01.jpg
+
 images:
   - file: image01.jpg
     type: installation
-    caption: <4 : 3_그 곳> 갤러리 아이엠몬 2012 
+    caption: "〈4 : 3_그 곳〉 갤러리 아이엠몬 2012"
+    caption_align: center
+    caption_position: bottom
+
   - file: installation-01.jpg
     type: installation
-    caption:
+
   - file: installation-02.jpg
     type: installation
-    caption:
+
 layout:
   - type: text
     paragraphs:
       - >-
         상업용 영화에서 공간은 대부분 영화적 서사의 하위계급으로서 위치된다. 그것은 미장센이라는 일종의 제도화된 전략으로부터 기인하기 때문이다. 영화 《살인의 추억》에서 축축한 어두움과 비, 공동(空洞)화된 공간은 일종의 스릴러나 공포영화의 상징적 약속이며, 특히 봉준호의 작품에서 잘 드러나는 요소이다. 나는 영화의 그런 상징적 장면들을 캡처하여 CG로 장면을 재구성하고, 원래 영화의 목적과 쓰임새에서 벗어나 다른 용도로 재공간화해 보았다.
+
   - type: image
     file: installation-01.jpg
+
   - type: image
     file: installation-02.jpg
 ---
-
-상업용 영화에서 공간은 대부분 영화적 서사의 하위계급으로서 위치된다. 그것은 미장센이라는 일종의 제도화된 전략으로부터 기인하기 때문이다. 영화 《살인의 추억》에서 축축한 어두움과 비, 공동(空洞)화된 공간은 일종의 스릴러나 공포영화의 상징적 약속이며, 특히 봉준호의 작품에서 잘 드러나는 요소이다. 나는 영화의 그런 상징적 장면들을 캡처하여 CG로 장면을 재구성하고, 원래 영화의 목적과 쓰임새에서 벗어나 다른 용도로 재공간화해 보았다.
