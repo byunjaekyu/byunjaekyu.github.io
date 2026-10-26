@@ -4,7 +4,7 @@ year: 2015
 medium: 수공영사기와 OHP 컬러 프린트 필름
 display_year: 2015 / 2016 / 2019
 cover: image03.png
-cover_width: 60%
+cover_width: 75%
 cover_caption: "〈측정의 메커니즘> 스페이스 비아트 2015 "
 images:
 - file: installation-02.jpg
@@ -30,7 +30,7 @@ layout:
   - 과거의 영화 기술은 오늘날 낡은 것으로 보인다. 그러나 디지털 기술의 습득을 통해 낡은 것은 어떻게 다르게 보일 수 있을까? 이렇게 만들어진 이미지와 장치의 물질적 환경은 현재를 넘어 미래에 어떤 가치를 생산할 수 있을까?
 - type: image
   file: installation-02.jpg
-  width: 60%
+  width: 75%
   align: center
 - type: image
   file: installation-05.jpg
