@@ -1063,12 +1063,12 @@
       {
         "file": "works/2012-4-3-that-place/installation-01.jpg",
         "type": "installation",
-        "caption": "설치전경, 갤러리 18-1 (2012)"
+        "caption": null
       },
       {
         "file": "works/2012-4-3-that-place/installation-02.jpg",
         "type": "installation",
-        "caption": "설치전경, 갤러리 18-1 (2012)"
+        "caption": null
       }
     ],
     "layout": [
