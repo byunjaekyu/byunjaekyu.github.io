@@ -13,7 +13,7 @@ cover_caption_position: bottom
 images:
   - file: image01.jpg
     type: installation
-    width: 100%
+    width: 90%
     align: center
     caption: 〈포커싱〉 설치전경 또따또가 갤러리 2017
     caption_align: center
@@ -29,7 +29,7 @@ images:
 
   - file: detail01.jpg
     type: detail
-    width: 100%
+    width: 80%
     align: center
     caption: ""
     caption_align: center
@@ -37,7 +37,7 @@ images:
 
   - file: detail02.jpg
     type: detail
-    width: 100%
+    width: 80%
     align: center
     caption: ""
     caption_align: center
