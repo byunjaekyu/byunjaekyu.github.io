@@ -1,4 +1,3 @@
-
 ---
 title: 소금창고
 english_title: Salt Barn
