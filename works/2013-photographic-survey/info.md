@@ -5,15 +5,29 @@ medium: Single channel video and installation
 video: https://vimeo.com/201794980
 cover: image01.jpg
 images:
-- file: installation-01.jpg
-  type: installation
-  caption: 설치전경, 예술공간 돈키호테 2013
-- file: installation-02.jpg
-  type: installation
-  caption: 사진더미와 장갑, 갤러리 18-1 2014
-- file: image01.jpg
-  type: detail
-  caption: <소금창고> 820x567mm archival pigment print 2013
+  - file: installation-01.jpg
+    type: installation
+    width: 80%
+    align: center
+    caption: 설치전경, 예술공간 돈키호테 2013
+    caption_align: center
+    caption_position: bottom
+
+  - file: installation-02.jpg
+    type: installation
+    width: 80%
+    align: center
+    caption: 사진더미와 장갑, 갤러리 18-1 2014
+    caption_align: center
+    caption_position: bottom
+
+  - file: image01.jpg
+    type: detail
+    width: 80%
+    align: center
+    caption: 〈소금창고〉 820 × 567mm archival pigment print 2013
+    caption_align: center
+    caption_position: bottom
 layout:
 - type: text
   paragraphs:
