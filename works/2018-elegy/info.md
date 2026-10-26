@@ -2,11 +2,12 @@
 title: '잔해를 위한 애가: 녹나무 숲'
 english_title: 'Elegy for the Remains: Cinamomum camphora'
 year: 2018
-medium: 녹나무 잎, 렌즈, 필름, 퍼포레이션 장치, LED, PET 필름, 3D 프린팅 · 240 × 40 × 31 cm
+medium: 녹나무 잎, 렌즈, 필름, 퍼포레이션 장치, LED, PET 필름, 3D 프린팅 · 2400 × 400 × 310 mm
 cover: cover_kyushu.jpg
 images:
 - file: cover_kyushu.jpg
   type: hero
+  width: 100%
   caption: '〈잔해를 위한 애가: 녹나무 숲〉 큐슈 예문관 2018'
 - file: installation02.jpg
   type: installation
