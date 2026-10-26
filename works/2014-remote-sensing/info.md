@@ -21,7 +21,7 @@ images:
 
   - file: installation-02.jpg
     type: installation
-    width: 90%
+    width: 80%
     align: center
     caption: 킴스아트필드 2014
     caption_align: center
