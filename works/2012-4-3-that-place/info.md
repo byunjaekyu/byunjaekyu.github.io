@@ -4,6 +4,9 @@ year: 2012
 medium: 싱글채널 설치
 cover: image01.jpg
 images:
+  - file: image01.jpg
+    type: installation
+    caption: <4 : 3_그 곳> 갤러리 아이엠몬 2012 
   - file: installation-01.jpg
     type: installation
     caption:
