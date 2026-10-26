@@ -51,13 +51,6 @@ links:
     url: http://www.art8013.net/board.php?id=news&mode=view&no=115
 
 layout:
-  - type: image
-    file: main.jpg
-    width: 75%
-    align: center
-    caption_align: center
-    caption_position: bottom
-
   - type: text
     paragraphs:
       - >-
