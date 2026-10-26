@@ -6,7 +6,7 @@ medium: 거울과 볼록렌즈 설치
 
 cover: image01.jpg
 cover_width: 100%
-cover_caption: 〈풍경의 경험〉대마도 아트판타지아 2014
+cover_caption: 〈풍경의 경험〉 대마도 아트판타지아 2014
 cover_caption_align: center
 cover_caption_position: bottom
 
