@@ -2,11 +2,11 @@
 title: 무빙 파노라마
 year: 2005
 medium: 멀티/싱글 프로젝션, 혼합매체
+
+video: https://vimeo.com/102097293/a08dbdb322
+video_caption: 〈무빙 파노라마〉 싱글채널 4m 5s 2005
+
 cover: image01.png
-cover_width: 85%
-cover_caption: 무빙 파노라마(싱글채널) 2005
-cover_caption_align: center
-cover_caption_position: bottom
 
 images:
   - file: installation-02.jpg
@@ -19,27 +19,18 @@ images:
 
   - file: detail-01.jpg
     type: detail
-    width: 100%
+    width: 80%
     align: center
-    caption: ''
-    caption_align: right
-    caption_position: bottom
 
   - file: detail-02.jpg
     type: detail
-    width: 100%
+    width: 80%
     align: center
-    caption: ''
-    caption_align: right
-    caption_position: bottom
 
   - file: detail-03.jpg
     type: detail
     width: 70%
     align: center
-    caption: ''
-    caption_align: right
-    caption_position: bottom
 
 layout:
   - type: text
@@ -50,10 +41,11 @@ layout:
   - type: image
     file: installation-02.jpg
 
-  - type: image-pair
-    files:
-      - detail-01.jpg
-      - detail-02.jpg
+  - type: image
+    file: detail-01.jpg
+
+  - type: image
+    file: detail-02.jpg
 
   - type: image
     file: detail-03.jpg
