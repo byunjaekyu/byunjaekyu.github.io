@@ -6,7 +6,7 @@ medium: 싱글채널 비디오, Full HD, 8분 40초
 
 cover: image01.jpg
 cover_width: 80%
-cover_caption: 〈무진〉 영상 스틸 2016
+cover_caption: 〈무진〉 2016
 cover_caption_align: center
 cover_caption_position: bottom
 
