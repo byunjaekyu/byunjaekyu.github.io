@@ -1,11 +1,11 @@
 ---
 title: 925장의 부산타워
 year: 2009
-medium: 싱글채널
+medium: 싱글채널 FHD 3m 7s
 
 cover: image01.jpg
-cover_width: 80%
-cover_caption: 〈925장의 부산타워〉 2009
+cover_width: 90%
+cover_caption: 〈925장의 부산타워〉 싱글채널 2009
 cover_caption_align: center
 cover_caption_position: bottom
 
@@ -20,7 +20,7 @@ images:
 
   - file: installation-02.jpg
     type: installation
-    width: 90%
+    width: 80%
     align: center
     caption: 〈925장의 부산타워〉 사진과 싱글채널영상 설치 아트팩토리인다대포 2010
     caption_align: center
