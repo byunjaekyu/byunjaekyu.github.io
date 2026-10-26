@@ -206,7 +206,17 @@ main {
 <div class="cv-entry"><span class="cv-year">2011</span><span>&lt;a work study on the construct of spatial experience- focused on the making process of constructed landscape moving image&gt;, 박사학위논문, Kyoto-Seika university</span></div>
 <div class="cv-entry"><span class="cv-year">2010</span><span>제36회 일본 영상학회 대회 연구발표 및 작품발표, 일본 대학, 동경</span></div></section>
 <section class="cv-group"><h2>Publications</h2><div class="cv-entry"><span class="cv-year">2012</span><span>DVD 작품집 &lt;수공향수 NOSTELGIA STRUCTURED BY FRAME&gt;, 변재규</span></div></section></div></section><section class="section" id="contact"><h1>Contact</h1><p><a href="mailto:usagisang@gmail.com">usagisang@gmail.com</a></p><p><a href="https://vimeo.com/byunjaekyu" target="_blank" rel="noopener noreferrer">Vimeo ↗</a></p></section></main></div><script>
-let works=[];const list=document.getElementById('work-list'),content=document.getElementById('work-content');const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));function videoId(url){let m=String(url||'').match(/vimeo\.com\/(?:video\/)?(\d+)/);return m?m[1]:null}function render(){let id=decodeURIComponent(location.hash.slice(1));let section=['texts','about','cv','contact'].includes(id)?id:null;document.querySelectorAll('.section').forEach(e=>e.classList.toggle('active',e.id===section));content.classList.toggle('hidden',!!section);if(section)return;let work=works.find(w=>w.slug===id)||works[0];if(!work)return;content.dataset.work=work.slug;list.querySelectorAll('button').forEach(b=>b.classList.toggle('active',b.dataset.slug===work.slug));/* info.md controls artwork image size, position, and captions */
+let works=[];const list=document.getElementById('work-list'),content=document.getElementById('work-content');const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));function videoId(url){let m=String(url||'').match(/vimeo\.com\/(?:video\/)?(\d+)/);return m?m[1]:null}function vimeoEmbedUrl(url){
+ const source=String(url||'');
+ const id=videoId(source);
+ if(!id)return '';
+ let hash='';
+ const m=source.match(/vimeo\.com\/(?:video\/)?\d+\/([a-f0-9]{6,})/i);
+ if(m)hash=m[1];
+ else {const h=source.match(/[?&]h=([a-f0-9]+)/i);if(h)hash=h[1];}
+ return `https://player.vimeo.com/video/${id}?${hash?'h='+encodeURIComponent(hash)+'&':''}title=0&byline=0&portrait=0`;
+}
+function render(){let id=decodeURIComponent(location.hash.slice(1));let section=['texts','about','cv','contact'].includes(id)?id:null;document.querySelectorAll('.section').forEach(e=>e.classList.toggle('active',e.id===section));content.classList.toggle('hidden',!!section);if(section)return;let work=works.find(w=>w.slug===id)||works[0];if(!work)return;content.dataset.work=work.slug;list.querySelectorAll('button').forEach(b=>b.classList.toggle('active',b.dataset.slug===work.slug));/* info.md controls artwork image size, position, and captions */
 function layoutWidth(value) {
   let s=String(value??'').trim();
   if(!s)return '';
@@ -251,10 +261,19 @@ if(Array.isArray(work.layout)&&work.layout.length){
   if(vid&&block.type==='image'&&block.file===work.cover)continue;
   if(block.type==='text'){editorial+=`<div class="editorial-text">${(block.paragraphs||[]).map(p=>`<p>${esc(p)}</p>`).join('')}</div>`;}
   else if(block.type==='image'&&block.file){const im=photoMap.get(block.file)||{file:block.file};editorial+=photoFigure({...im,width:block.width||im.width,align:block.align||im.align,caption_align:block.caption_align||im.caption_align,caption_position:block.caption_position||im.caption_position},im.type==='installation'?'work-image--installation':'work-image--detail-single');}
+  else if(block.type==='video'&&(block.url||block.video)){
+   const source=block.url||block.video;
+   const video=videoId(source);
+   if(video){
+    const widthStyle=imageStyle({width:block.width||'100%',align:block.align||'center'});
+    const videoHtml=`<iframe class="video" src="${esc(vimeoEmbedUrl(source))}" title="${esc(block.title||work.title)}" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>`;
+    editorial+=`<figure class="video-frame" style="${widthStyle}">${captionedImage(videoHtml,block.caption,block.caption_align||'center',block.caption_position)}</figure>`;
+   }
+  }
   else if(block.type==='image-pair'){editorial+=`<div class="detail-grid">${(block.files||[]).map(f=>photoFigure({...((photoMap.get(f))||{file:f}),width:block.width||((photoMap.get(f)||{}).width),align:block.align||((photoMap.get(f)||{}).align),caption_align:block.caption_align||((photoMap.get(f)||{}).caption_align),caption_position:block.caption_position||((photoMap.get(f)||{}).caption_position)},'work-image--detail')).join('')}</div>`;}
  }
 }
-content.innerHTML=`<h1>${esc(work.title)}</h1><small>${esc(work.medium||'')} · ${esc(work.display_year||work.year)}</small>${hero}${vid?`<figure class="video-frame"><iframe class="video" src="https://player.vimeo.com/video/${vid}?title=0&byline=0&portrait=0" title="${esc(work.title)}" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe> ${work.video_caption   ? `<figcaption style="text-align:${       ['left', 'center', 'right'].includes(work.video_caption_align)         ? work.video_caption_align         : 'center'     }">${esc(work.video_caption)}</figcaption>`   : ''}</figure>`:''}${editorial||`<p>${esc(work.description||'')}</p>${images}`}${(work.links||[]).filter(x=>/^https?:\/\//.test(x.url||'')).map(x=>`<p><a href="${esc(x.url)}" target="_blank" rel="noopener noreferrer">${esc(x.label||x.url)} ↗</a></p>`).join('')}`}
+content.innerHTML=`<h1>${esc(work.title)}</h1><small>${esc(work.medium||'')} · ${esc(work.display_year||work.year)}</small>${hero}${vid?`<figure class="video-frame"><iframe class="video" src="${esc(vimeoEmbedUrl(work.video))}" title="${esc(work.title)}" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe> ${work.video_caption   ? `<figcaption style="text-align:${       ['left', 'center', 'right'].includes(work.video_caption_align)         ? work.video_caption_align         : 'center'     }">${esc(work.video_caption)}</figcaption>`   : ''}</figure>`:''}${editorial||`<p>${esc(work.description||'')}</p>${images}`}${(work.links||[]).filter(x=>/^https?:\/\//.test(x.url||'')).map(x=>`<p><a href="${esc(x.url)}" target="_blank" rel="noopener noreferrer">${esc(x.label||x.url)} ↗</a></p>`).join('')}`}
 fetch('works.json').then(r=>{if(!r.ok)throw Error('works.json not found');return r.json()}).then(data=>{works=data;list.innerHTML=works.map(w=>`<button data-slug="${esc(w.slug)}">${esc(w.title)}</button>`).join('');list.querySelectorAll('button').forEach(b=>b.onclick=()=>location.hash=b.dataset.slug);render()}).catch(e=>content.textContent=e.message);window.addEventListener('hashchange',()=>{render();scrollTo(0,0)});
 
 /* Text archive data are independent from artwork records. */
