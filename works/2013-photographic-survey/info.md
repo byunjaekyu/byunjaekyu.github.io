@@ -7,13 +7,13 @@ cover: image01.jpg
 images:
 - file: installation-01.jpg
   type: installation
-  caption: 설치전경, 예술공간 돈키호테 (2013)
+  caption: 설치전경, 예술공간 돈키호테 2013
 - file: installation-02.jpg
   type: installation
-  caption: 사진더미와 장갑, 갤러리 18-1 (2014)
-- file: detail01.jpg
+  caption: 사진더미와 장갑, 갤러리 18-1 2014
+- file: image01.jpg
   type: detail
-  caption: 작품 상세 이미지
+  caption: 소금창고의 사진
 layout:
 - type: text
   paragraphs:
@@ -28,7 +28,7 @@ layout:
 - type: image
   file: installation-02.jpg
 - type: image
-  file: detail01.jpg
+  file: image01.jpg
 ---
 
 우연히 순천만에서 시야에 들어온 어느 창고를 확인하려 사진을 찍게 되었다. 소금창고라 생각하고 다가갔지만, 나의 예상과는 다르게 실체는 전혀 다른 모습이었다. 혹여 기억도 그런 성질을 가지고 있지는 않을까? 사람은 스스로의 기억의 그림자가 만들어낸 것만을 보려 한다. 나는 이러한 의식의 과정을 기술하려 일종의 시선의 궤적화 작업을 생각해 내게 되었다.
