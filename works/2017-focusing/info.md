@@ -52,7 +52,7 @@ layout:
   - type: image
     file: installation01.jpg
 
-  - type: image-pair
+  - type: image
     files:
       - detail01.jpg
       - detail02.jpg
