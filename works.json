@@ -1000,17 +1000,29 @@
       {
         "file": "works/2013-photographic-survey/installation-01.jpg",
         "type": "installation",
-        "caption": "설치전경, 예술공간 돈키호테 2013"
+        "width": "80%",
+        "align": "center",
+        "caption": "설치전경, 예술공간 돈키호테 2013",
+        "caption_align": "center",
+        "caption_position": "bottom"
       },
       {
         "file": "works/2013-photographic-survey/installation-02.jpg",
         "type": "installation",
-        "caption": "사진더미와 장갑, 갤러리 18-1 2014"
+        "width": "80%",
+        "align": "center",
+        "caption": "사진더미와 장갑, 갤러리 18-1 2014",
+        "caption_align": "center",
+        "caption_position": "bottom"
       },
       {
         "file": "works/2013-photographic-survey/image01.jpg",
         "type": "detail",
-        "caption": "<소금창고> 820x567mm archival pigment print 2013"
+        "width": "80%",
+        "align": "center",
+        "caption": "〈소금창고〉 820 × 567mm archival pigment print 2013",
+        "caption_align": "center",
+        "caption_position": "bottom"
       }
     ],
     "layout": [
