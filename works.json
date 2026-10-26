@@ -1454,11 +1454,9 @@
     "title": "무빙 파노라마",
     "year": 2005,
     "medium": "멀티/싱글 프로젝션, 혼합매체",
+    "video": "https://vimeo.com/102097293/a08dbdb322",
+    "video_caption": "〈무빙 파노라마〉 싱글채널 4m 5s 2005",
     "cover": "works/2005-moving-panorama/image01.png",
-    "cover_width": "85%",
-    "cover_caption": "무빙 파노라마(싱글채널) 2005",
-    "cover_caption_align": "center",
-    "cover_caption_position": "bottom",
     "images": [
       {
         "file": "works/2005-moving-panorama/installation-02.jpg",
@@ -1472,29 +1470,20 @@
       {
         "file": "works/2005-moving-panorama/detail-01.jpg",
         "type": "detail",
-        "width": "100%",
-        "align": "center",
-        "caption": "",
-        "caption_align": "right",
-        "caption_position": "bottom"
+        "width": "80%",
+        "align": "center"
       },
       {
         "file": "works/2005-moving-panorama/detail-02.jpg",
         "type": "detail",
-        "width": "100%",
-        "align": "center",
-        "caption": "",
-        "caption_align": "right",
-        "caption_position": "bottom"
+        "width": "80%",
+        "align": "center"
       },
       {
         "file": "works/2005-moving-panorama/detail-03.jpg",
         "type": "detail",
         "width": "70%",
-        "align": "center",
-        "caption": "",
-        "caption_align": "right",
-        "caption_position": "bottom"
+        "align": "center"
       }
     ],
     "layout": [
@@ -1509,11 +1498,12 @@
         "file": "works/2005-moving-panorama/installation-02.jpg"
       },
       {
-        "type": "image-pair",
-        "files": [
-          "works/2005-moving-panorama/detail-01.jpg",
-          "works/2005-moving-panorama/detail-02.jpg"
-        ]
+        "type": "image",
+        "file": "works/2005-moving-panorama/detail-01.jpg"
+      },
+      {
+        "type": "image",
+        "file": "works/2005-moving-panorama/detail-02.jpg"
       },
       {
         "type": "image",
