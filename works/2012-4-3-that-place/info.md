@@ -6,10 +6,10 @@ cover: image01.jpg
 images:
   - file: installation-01.jpg
     type: installation
-    caption: "설치전경, 갤러리 18-1 (2012)"
+    caption:
   - file: installation-02.jpg
     type: installation
-    caption: "설치전경, 갤러리 18-1 (2012)"
+    caption:
 layout:
   - type: text
     paragraphs:
