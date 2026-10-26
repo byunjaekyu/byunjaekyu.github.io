@@ -1,4 +1,3 @@
-
 ---
 title: '포트레이트: 구조적 초상'
 english_title: Portrait
