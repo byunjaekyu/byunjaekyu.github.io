@@ -225,15 +225,22 @@ function imageStyle(im) {
   else css+='margin-left:auto;margin-right:auto;';
   return css;
 }
+function captionedImage(imageHtml, caption, align, position) {
+  const allowed=['left','center','right'];
+  const alignment=String(align||'right').trim().toLowerCase();
+  const safeAlign=allowed.includes(alignment)?alignment:'right';
+  const note=caption?`<figcaption style="text-align:${safeAlign}">${esc(caption)}</figcaption>`:'';
+  return String(position||'bottom').toLowerCase()==='top'?note+imageHtml:imageHtml+note;
+}
 let vid=videoId(work.video);
 let coverMeta=(work.images||[]).find(im=>im.file===work.cover)||{};
 let coverCaption=work.cover_caption||coverMeta.caption||'';
 let heroWidth=layoutWidth(work.cover_width||coverMeta.width)||'100%';
 let hero=(!vid&&work.cover)?
-  `<figure class="hero-frame" style="width:${heroWidth};max-width:100%"><a href="${esc(work.cover)}" target="_blank" rel="noopener" aria-label="대표사진 확대"><img class="hero" src="${esc(work.cover)}" alt="${esc(work.title)}"></a>${coverCaption?`<figcaption>${esc(coverCaption)}</figcaption>`:''}</figure>`:'';
+  `<figure class="hero-frame" style="width:${heroWidth};max-width:100%">${captionedImage(`<a href="${esc(work.cover)}" target="_blank" rel="noopener" aria-label="대표사진 확대"><img class="hero" src="${esc(work.cover)}" alt="${esc(work.title)}"></a>`,coverCaption,work.cover_caption_align||coverMeta.caption_align,work.cover_caption_position||coverMeta.caption_position)}</figure>`:'';
 const photoFigure=(im,cls)=>{
   let css=imageStyle(im);
-  return `<figure class="work-image ${cls}" style="${css}"><a href="${esc(im.file)}" target="_blank" rel="noopener" aria-label="사진 확대"><img loading="lazy" src="${esc(im.file)}" alt="${esc(im.caption||work.title)}"></a>${im.caption?`<figcaption>${esc(im.caption)}</figcaption>`:''}</figure>`;
+  return `<figure class="work-image ${cls}" style="${css}">${captionedImage(`<a href="${esc(im.file)}" target="_blank" rel="noopener" aria-label="사진 확대"><img loading="lazy" src="${esc(im.file)}" alt="${esc(im.caption||work.title)}"></a>`,im.caption,im.caption_align,im.caption_position)}</figure>`;
 };
 let images='',queue=[];function flushPhotos(){if(!queue.length)return;if(queue.length===1){images+=photoFigure(queue[0],'work-image--detail-single')}else{for(let i=0;i<queue.length;i+=2){let pair=queue.slice(i,i+2);images+=pair.length===2?`<div class="detail-grid">${pair.map(im=>photoFigure(im,'work-image--detail')).join('')}</div>`:photoFigure(pair[0],'work-image--detail-single')}}queue=[]}
 for(const im of (work.images||[]).filter(im=>im.file&&im.file!==work.cover)){let kind=String(im.type||'').toLowerCase(),fname=String(im.file||'').toLowerCase();let isInstallation=kind==='installation'||(!kind&&/installation|설치/.test(fname));if(isInstallation){flushPhotos();images+=photoFigure(im,'work-image--installation')}else{queue.push(im)}}flushPhotos();
@@ -243,8 +250,8 @@ if(Array.isArray(work.layout)&&work.layout.length){
  for(const block of work.layout){
   if(vid&&block.type==='image'&&block.file===work.cover)continue;
   if(block.type==='text'){editorial+=`<div class="editorial-text">${(block.paragraphs||[]).map(p=>`<p>${esc(p)}</p>`).join('')}</div>`;}
-  else if(block.type==='image'&&block.file){const im=photoMap.get(block.file)||{file:block.file};editorial+=photoFigure({...im,width:block.width||im.width,align:block.align||im.align},im.type==='installation'?'work-image--installation':'work-image--detail-single');}
-  else if(block.type==='image-pair'){editorial+=`<div class="detail-grid">${(block.files||[]).map(f=>photoFigure({...((photoMap.get(f))||{file:f}),width:block.width||((photoMap.get(f)||{}).width),align:block.align||((photoMap.get(f)||{}).align)},'work-image--detail')).join('')}</div>`;}
+  else if(block.type==='image'&&block.file){const im=photoMap.get(block.file)||{file:block.file};editorial+=photoFigure({...im,width:block.width||im.width,align:block.align||im.align,caption_align:block.caption_align||im.caption_align,caption_position:block.caption_position||im.caption_position},im.type==='installation'?'work-image--installation':'work-image--detail-single');}
+  else if(block.type==='image-pair'){editorial+=`<div class="detail-grid">${(block.files||[]).map(f=>photoFigure({...((photoMap.get(f))||{file:f}),width:block.width||((photoMap.get(f)||{}).width),align:block.align||((photoMap.get(f)||{}).align),caption_align:block.caption_align||((photoMap.get(f)||{}).caption_align),caption_position:block.caption_position||((photoMap.get(f)||{}).caption_position)},'work-image--detail')).join('')}</div>`;}
  }
 }
 content.innerHTML=`<h1>${esc(work.title)}</h1><small>${esc(work.medium||'')} · ${esc(work.display_year||work.year)}</small>${hero}${vid?`<figure class="video-frame"><iframe class="video" src="https://player.vimeo.com/video/${vid}?title=0&byline=0&portrait=0" title="${esc(work.title)}" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>${work.video_caption?`<figcaption>${esc(work.video_caption)}</figcaption>`:''}</figure>`:''}${editorial||`<p>${esc(work.description||'')}</p>${images}`}${(work.links||[]).filter(x=>/^https?:\/\//.test(x.url||'')).map(x=>`<p><a href="${esc(x.url)}" target="_blank" rel="noopener noreferrer">${esc(x.label||x.url)} ↗</a></p>`).join('')}`}
