@@ -655,7 +655,7 @@
     "year": 2017,
     "medium": "아두이노, 비디오 카메라, 브라운관 모니터, 가변 설치",
     "cover": "works/2017-focusing/image01.jpg",
-    "cover_width": "80%",
+    "cover_width": "100%",
     "cover_caption": "〈포커싱〉 설치전경 또따또가 갤러리 2017",
     "cover_caption_align": "center",
     "cover_caption_position": "bottom",
@@ -663,7 +663,7 @@
       {
         "file": "works/2017-focusing/image01.jpg",
         "type": "installation",
-        "width": "80%",
+        "width": "100%",
         "align": "center",
         "caption": "〈포커싱〉 설치전경 또따또가 갤러리 2017",
         "caption_align": "center",
