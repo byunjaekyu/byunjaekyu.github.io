@@ -995,7 +995,7 @@
     "year": 2013,
     "medium": "Single channel video and installation",
     "video": "https://vimeo.com/201794980",
-    "cover": "works/2013-photographic-survey/image01.jpg",
+    "cover": "works/2013-photographic-survey/installation-01.jpg",
     "images": [
       {
         "file": "works/2013-photographic-survey/installation-01.jpg",
@@ -1018,7 +1018,7 @@
       {
         "file": "works/2013-photographic-survey/image01.jpg",
         "type": "detail",
-        "width": "80%",
+        "width": "100%",
         "align": "center",
         "caption": "〈소금창고〉 820 × 567mm archival pigment print 2013",
         "caption_align": "center",
