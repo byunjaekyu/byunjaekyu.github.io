@@ -3,7 +3,7 @@ title: 사진측량
 year: 2013
 medium: Single channel video and installation
 video: https://vimeo.com/201794980
-cover: installation-01.jpg
+cover: 
 images:
   - file: installation-01.jpg
     type: installation
