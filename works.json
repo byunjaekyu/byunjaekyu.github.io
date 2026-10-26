@@ -378,19 +378,22 @@
         "type": "installation",
         "caption": "설치전경, 예술지구P 2019",
         "width": "80%",
-        "align": "center"
+        "align": "center",
+        "caption_align": "center",
+        "caption_position": "bottom"
       },
       {
         "file": "works/2019-portrait/installation02.jpg",
         "type": "installation",
         "caption": "축광 도료위의 발광이미지, 예술지구P 2019",
         "width": "80%",
-        "align": "center"
+        "align": "center",
+        "caption_align": "center",
+        "caption_position": "bottom"
       },
       {
         "file": "works/2019-portrait/installation03.jpg",
         "type": "installation",
-        "caption": null,
         "width": "80%",
         "align": "center"
       },
@@ -399,14 +402,18 @@
         "type": "detail",
         "caption": "작품 상세",
         "width": "60%",
-        "align": "center"
+        "align": "center",
+        "caption_align": "center",
+        "caption_position": "bottom"
       },
       {
         "file": "works/2019-portrait/making.jpg",
         "type": "making",
         "caption": "부모님의 신혼여행 사진 (용두산공원)",
         "width": "60%",
-        "align": "center"
+        "align": "center",
+        "caption_align": "center",
+        "caption_position": "bottom"
       }
     ],
     "layout": [
@@ -421,23 +428,41 @@
       },
       {
         "type": "image",
-        "file": "works/2019-portrait/installation01.jpg"
+        "file": "works/2019-portrait/installation01.jpg",
+        "width": "80%",
+        "align": "center",
+        "caption_align": "center",
+        "caption_position": "bottom"
       },
       {
         "type": "image",
-        "file": "works/2019-portrait/installation02.jpg"
+        "file": "works/2019-portrait/installation02.jpg",
+        "width": "80%",
+        "align": "center",
+        "caption_align": "center",
+        "caption_position": "bottom"
       },
       {
         "type": "image",
-        "file": "works/2019-portrait/installation03.jpg"
+        "file": "works/2019-portrait/installation03.jpg",
+        "width": "80%",
+        "align": "center"
       },
       {
         "type": "image",
-        "file": "works/2019-portrait/detail01.jpg"
+        "file": "works/2019-portrait/detail01.jpg",
+        "width": "60%",
+        "align": "center",
+        "caption_align": "center",
+        "caption_position": "bottom"
       },
       {
         "type": "image",
-        "file": "works/2019-portrait/making.jpg"
+        "file": "works/2019-portrait/making.jpg",
+        "width": "60%",
+        "align": "center",
+        "caption_align": "center",
+        "caption_position": "bottom"
       }
     ],
     "cover": "",
