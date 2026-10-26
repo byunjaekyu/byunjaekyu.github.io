@@ -69,6 +69,6 @@ layout:
 
   - type: image
     file: detail-01.jpg
-    width: 30%
+    width: 50%
     align: center
 ---
