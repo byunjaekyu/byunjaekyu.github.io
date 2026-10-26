@@ -4,8 +4,8 @@ year: 2005
 medium: 멀티/싱글 프로젝션, 혼합매체
 cover: image01.png
 cover_width: 85%
-cover_caption: ''
-cover_caption_align: right
+cover_caption: 무빙 파노라마(싱글채널) 2005
+cover_caption_align: center
 cover_caption_position: bottom
 
 images:
@@ -14,7 +14,7 @@ images:
     width: 80%
     align: center
     caption: 멀티프로젝션(4ch) Gallery Fleur 2006
-    caption_align: right
+    caption_align: center
     caption_position: bottom
 
   - file: detail-01.jpg
@@ -35,7 +35,7 @@ images:
 
   - file: detail-03.jpg
     type: detail
-    width: 100%
+    width: 70%
     align: center
     caption: ''
     caption_align: right
