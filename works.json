@@ -931,31 +931,54 @@
     "video_caption": "〈영화의 빛나는 밤〉 부산시립미술관 2014",
     "cover": "works/2014-brilliant-night-of-film/image01.jpg",
     "cover_width": "80%",
+    "cover_caption": "〈영화의 빛나는 밤〉 설치전경 부산시립미술관 2014",
+    "cover_caption_align": "center",
+    "cover_caption_position": "bottom",
     "images": [
       {
         "file": "works/2014-brilliant-night-of-film/image01.jpg",
         "type": "installation",
-        "caption": "설치전경, 부산시립미술관 (2014)"
+        "width": "80%",
+        "align": "center",
+        "caption": "〈영화의 빛나는 밤〉 설치전경 부산시립미술관 2014",
+        "caption_align": "center",
+        "caption_position": "bottom"
       },
       {
         "file": "works/2014-brilliant-night-of-film/installation-02.jpg",
         "type": "installation",
-        "caption": "설치전경, 인사미술공간 (2017)"
+        "width": "90%",
+        "align": "center",
+        "caption": "설치전경, 인사미술공간 2017",
+        "caption_align": "center",
+        "caption_position": "bottom"
       },
       {
         "file": "works/2014-brilliant-night-of-film/detail01.png",
         "type": "detail",
-        "caption": "작품 상세사진"
+        "width": "80%",
+        "align": "center",
+        "caption": "작품 상세사진 1",
+        "caption_align": "center",
+        "caption_position": "bottom"
       },
       {
         "file": "works/2014-brilliant-night-of-film/detail02.jpg",
         "type": "detail",
-        "caption": "작품 상세사진"
+        "width": "80%",
+        "align": "center",
+        "caption": "작품 상세사진 2",
+        "caption_align": "center",
+        "caption_position": "bottom"
       },
       {
         "file": "works/2014-brilliant-night-of-film/detail03.jpg",
         "type": "detail",
-        "caption": "작품 상세사진"
+        "width": "70%",
+        "align": "center",
+        "caption": null,
+        "caption_align": "center",
+        "caption_position": "bottom"
       }
     ],
     "layout": [
@@ -967,22 +990,11 @@
       },
       {
         "type": "image",
-        "file": "works/2014-brilliant-night-of-film/installation-02.jpg",
-        "width": "90%",
-        "align": "center"
-      },
-      {
-        "type": "image-pair",
-        "files": [
-          "works/2014-brilliant-night-of-film/detail01.png",
-          "works/2014-brilliant-night-of-film/detail02.jpg"
-        ]
+        "file": "works/2014-brilliant-night-of-film/installation-02.jpg"
       },
       {
         "type": "image",
-        "file": "works/2014-brilliant-night-of-film/detail03.jpg",
-        "width": "70%",
-        "align": "center"
+        "file": "works/2014-brilliant-night-of-film/detail03.jpg"
       }
     ],
     "description": "",
