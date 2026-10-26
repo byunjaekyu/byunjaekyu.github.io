@@ -1,4 +1,3 @@
-
 ---
 title: 풍경의 경험
 english_title: Excpience of Senery
