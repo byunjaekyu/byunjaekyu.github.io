@@ -1,4 +1,3 @@
-
 ---
 title: 영화의 빛나는 밤
 english_title: Brilliant night of Film
