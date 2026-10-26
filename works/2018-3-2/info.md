@@ -11,6 +11,8 @@ images:
   - file: scan600dpi_17.jpg
     type: hero
     caption: 〈# 3_2〉 스캔이미지
+    caption_align: center
+    caption_position: bottom
 layout:
   - type: text
     paragraphs:
