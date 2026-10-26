@@ -13,7 +13,7 @@ cover_caption_position: bottom
 images:
   - file: image01.jpg
     type: installation
-    width: 80%
+    width: 100%
     align: center
     caption: 설치전경 이즈하라 2014
     caption_align: center
