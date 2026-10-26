@@ -5,7 +5,7 @@ medium: 싱글채널 FHD 3m 7s
 
 cover: image01.jpg
 cover_width: 90%
-cover_caption: 〈925장의 부산타워〉 싱글채널 2009
+cover_caption: 〈925장의 부산타워〉2009
 cover_caption_align: center
 cover_caption_position: bottom
 
