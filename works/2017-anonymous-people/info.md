@@ -20,12 +20,12 @@ images:
 
   - file: installation01.jpg
     type: installation
-    width: 50%
+    width: 70%
     align: center
 
   - file: installation02.jpg
     type: installation
-    width: 50%
+    width: 70%
     align: center
 
 layout:
