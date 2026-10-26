@@ -3,7 +3,7 @@ title: 사진측량
 year: 2013
 medium: Single channel video and installation
 video: https://vimeo.com/201794980
-cover: image01.jpg
+cover: installation-01.jpg
 images:
   - file: installation-01.jpg
     type: installation
@@ -23,7 +23,7 @@ images:
 
   - file: image01.jpg
     type: detail
-    width: 80%
+    width: 100%
     align: center
     caption: 〈소금창고〉 820 × 567mm archival pigment print 2013
     caption_align: center
