@@ -5,7 +5,7 @@ medium: 싱글채널 설치
 
 cover: image01.jpg
 cover_width: 80%
-cover_caption: 〈라이트 콘〉 대안공간 반디 2010
+cover_caption: 대안공간 반디 2010
 cover_caption_align: center
 cover_caption_position: bottom
 
@@ -14,7 +14,7 @@ images:
     type: installation
     width: 80%
     align: center
-    caption: 〈라이트 콘〉 대안공간반디 2010
+    caption: 대안공간반디 2010
     caption_align: center
     caption_position: bottom
 
@@ -22,7 +22,7 @@ images:
     type: installation
     width: 80%
     align: center
-    caption: 〈라이트 콘>  경남도립미술관 2011
+    caption: 경남도립미술관 2011
     caption_align: center
     caption_position: bottom
 
