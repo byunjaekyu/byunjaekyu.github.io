@@ -6,7 +6,7 @@ cover: main.jpg
 images:
 - file: main.jpg
   type: hero
-  caption: '〈Untitle #9〉 550×790mm 2024'
+  caption: '〈Untitle #9〉 550 × 790mm 2024'
   caption_align: center
   caption_position: bottom
 - file: installation-01.jpg
@@ -20,7 +20,7 @@ images:
   caption: ''
 - file: detail-02.jpg
   type: hero
-  caption: '〈Untitle #8〉 550×790mm 2024'
+  caption: '〈Untitle #8〉 550 × 790mm 2024'
   caption_align: center
   caption_position: bottom
 layout:
