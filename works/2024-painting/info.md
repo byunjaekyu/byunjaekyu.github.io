@@ -11,10 +11,10 @@ images:
   caption_position: bottom
 - file: installation-01.jpg
   type: installation
-  caption:''
+  caption: ''
 - file: installation-02.jpg
   type: installation
-  caption:''
+  caption: ''
 - file: detail-01.jpg
   type: detail
   caption: ''
