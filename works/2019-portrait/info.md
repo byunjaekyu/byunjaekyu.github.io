@@ -7,18 +7,18 @@ video: https://vimeo.com/497910847
 images:
   - file: installation01.jpg
     type: installation
-    caption: 설치전경, 예술지구P (2019)
-    width: 90%
+    caption: 설치전경, 예술지구P 2019
+    width: 80%
     align: center
   - file: installation02.jpg
     type: installation
-    caption: 프로젝터 램프가 꺼진 뒤 축광 도료에 투사된 이미지가 발광하는 장면, 예술지구P (2019)
-    width: 85%
+    caption: 축광 도료위의 발광이미지, 예술지구P 2019
+    width: 80%
     align: center
   - file: installation03.jpg
     type: installation
-    caption: 설치전경, 예술지구P (2019)
-    width: 85%
+    caption: 
+    width: 80%
     align: center
   - file: detail01.jpg
     type: detail
