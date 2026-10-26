@@ -29,7 +29,7 @@ images:
 
   - file: detail01.jpg
     type: detail
-    width: 60%
+    width: 80%
     align: center
     caption: ""
     caption_align: center
@@ -37,7 +37,7 @@ images:
 
   - file: detail02.jpg
     type: detail
-    width: 60%
+    width: 80%
     align: center
     caption: ""
     caption_align: center
