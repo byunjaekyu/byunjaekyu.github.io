@@ -5,7 +5,7 @@ year: 2016
 medium: 프로젝터, PET 필름, 퍼포레이션 장치, 알루미늄 프로파일 · 3000 × 3730 × 7000 mm
 
 cover: image01.jpg
-cover_width: 80%
+cover_width: 100%
 cover_caption: 〈잔해를 위한 애가〉 설치전경 부산시립미술관 2016
 cover_caption_align: center
 cover_caption_position: bottom
