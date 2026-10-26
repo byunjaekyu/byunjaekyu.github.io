@@ -5,7 +5,7 @@ medium: 3ch Video Installation
 
 cover: main.jpg
 cover_width: 75%
-cover_caption: '〈순천 제일 사진관 네거티브 필름원본〉'
+cover_caption: '순천 제일 사진관 네거티브 필름원본'
 cover_caption_align: center
 cover_caption_position: bottom
 
@@ -14,7 +14,7 @@ images:
     type: hero
     width: 75%
     align: center
-    caption: '〈순천 제일 사진관 네거티브 필름원본〉'
+    caption: '순천 제일 사진관 네거티브 필름원본 필름스캔이미지'
     caption_align: center
     caption_position: bottom
 
