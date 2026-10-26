@@ -260,30 +260,26 @@
     "english_title": "Many a little makes a mickle",
     "year": 2021,
     "medium": "카세트테이프, 마그네틱 헤드, 루프 구조",
-    "video": "",
+    "video": "https://vimeo.com/696450317",
+    "video_caption": "〈가랑비에 옷 젖는다〉 2021",
     "cover": "works/2021-many/installation01.jpg",
     "cover_width": "85%",
-    "cover_caption": "<가랑비에 옷 젖는다> 예술공간 영주맨션 2021",
-    "cover_caption_align": "center",
-    "cover_caption_position": "bottom",
-    "links": [
-      {
-        "label": "Vimeo에서 영상 보기",
-        "url": "https://vimeo.com/696450317"
-      }
-    ],
     "images": [
       {
         "file": "works/2021-many/installation01.jpg",
         "type": "installation",
-        "caption": "<가랑비에 옷 젖는다> 예술공간 영주맨션 2021"
+        "width": "85%",
+        "align": "center",
+        "caption": "〈가랑비에 옷 젖는다〉 예술공간 영주맨션 2021",
+        "caption_align": "center",
+        "caption_position": "bottom"
       },
       {
         "file": "works/2021-many/detail01.jpg",
         "type": "detail",
-        "caption": "<가랑비에 옷 젖는다> (부분)",
         "width": "65%",
         "align": "center",
+        "caption": "〈가랑비에 옷 젖는다〉 (부분)",
         "caption_align": "center",
         "caption_position": "bottom"
       }
@@ -298,11 +294,11 @@
       },
       {
         "type": "image",
-        "file": "works/2021-many/detail01.jpg",
-        "width": "65%",
-        "align": "center",
-        "caption_align": "center",
-        "caption_position": "bottom"
+        "file": "works/2021-many/installation01.jpg"
+      },
+      {
+        "type": "image",
+        "file": "works/2021-many/detail01.jpg"
       }
     ],
     "description": "",
