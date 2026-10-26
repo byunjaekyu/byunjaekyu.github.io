@@ -37,7 +37,7 @@ images:
 
   - file: detail02.jpg
     type: detail
-    width:60%
+    width: 60%
     align: center
     caption: ""
     caption_align: center
