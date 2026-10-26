@@ -5,16 +5,16 @@ medium: FHD 싱글채널영상, 13분
 
 cover: image01.png
 cover_width: 75%
-cover_caption: 〈황홀: 1974 황홀 필름 로케이션 어카이브〉 2022
+cover_caption: '〈황홀: 1974 황홀 필름 로케이션 어카이브〉 2022'
 cover_caption_align: center
 cover_caption_position: bottom
 
 images:
   - file: image01.png
     type: hero
-    caption: 〈황홀: 1974 황홀 필름 로케이션 어카이브〉 2022
     width: 75%
     align: center
+    caption: '〈황홀: 1974 황홀 필름 로케이션 어카이브〉 2022'
     caption_align: center
     caption_position: bottom
 
@@ -22,7 +22,7 @@ images:
     type: detail
     width: 70%
     align: center
-    caption: 〈황홀: 1974 황홀 필름 로케이션 어카이브〉 캡처 이미지
+    caption: '〈황홀: 1974 황홀 필름 로케이션 어카이브〉 캡처 이미지'
     caption_align: center
     caption_position: bottom
 
