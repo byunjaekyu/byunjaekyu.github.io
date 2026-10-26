@@ -6,7 +6,7 @@ medium: 가변설치, OHP 필름, 렌즈, 거울, 모터
 
 cover: image01.jpg
 cover_width: 90%
-cover_caption: 〈원격탐사〉 설치전경 2014
+cover_caption: 〈원격탐사>  무빙트리엔날레 2014
 cover_caption_align: center
 cover_caption_position: bottom
 
