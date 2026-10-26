@@ -707,14 +707,11 @@
       },
       {
         "type": "image",
-        "file": "works/2017-focusing/installation01.jpg"
+        "file": "works/2017-focusing/detail01.jpg"
       },
       {
         "type": "image",
-        "files": [
-          "works/2017-focusing/detail01.jpg",
-          "works/2017-focusing/detail02.jpg"
-        ]
+        "file": "works/2017-focusing/detail02.jpg"
       }
     ],
     "description": "",
