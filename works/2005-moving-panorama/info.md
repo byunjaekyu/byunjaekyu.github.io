@@ -14,7 +14,7 @@ cover: image01.png
 images:
   - file: installation-02.jpg
     type: installation
-    width: 100%
+    width: 80%
     align: center
     caption: 멀티프로젝션(4ch) Gallery Fleur 2006
     caption_align: center
