@@ -3,15 +3,18 @@ title: 무빙 파노라마
 year: 2005
 medium: 멀티/싱글 프로젝션, 혼합매체
 
+
 video: https://vimeo.com/102097293/a08dbdb322
 video_caption: 〈무빙 파노라마〉 싱글채널 4m 5s 2005
+video_caption_align: center
+
 
 cover: image01.png
 
 images:
   - file: installation-02.jpg
     type: installation
-    width: 80%
+    width: 100%
     align: center
     caption: 멀티프로젝션(4ch) Gallery Fleur 2006
     caption_align: center
@@ -19,12 +22,12 @@ images:
 
   - file: detail-01.jpg
     type: detail
-    width: 80%
+    width: 70%
     align: center
 
   - file: detail-02.jpg
     type: detail
-    width: 80%
+    width: 70%
     align: center
 
   - file: detail-03.jpg
