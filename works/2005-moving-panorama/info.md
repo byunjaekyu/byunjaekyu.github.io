@@ -1,7 +1,7 @@
 ---
 title: 무빙 파노라마
 year: 2005
-medium: single (4m 5s)/ multi projection
+medium: 4ch multi projection/ single channel (4m 5s)
 
 
 video: https://vimeo.com/102097293/a08dbdb322
