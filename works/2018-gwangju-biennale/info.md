@@ -5,7 +5,7 @@ year: 2018
 medium: 35mm 영화필름, 수제작 필름 프로젝터 설치
 
 cover: somewhere-over-the-rainbow-main.jpg
-cover_width: 75%
+cover_width: 90%
 cover_caption: '〈섬웨어 오버 더 레인보우〉 설치전경 광주비엔날레 2018'
 cover_caption_align: center
 cover_caption_position: bottom
@@ -13,7 +13,7 @@ cover_caption_position: bottom
 images:
   - file: somewhere-over-the-rainbow-main.jpg
     type: hero
-    width: 75%
+    width: 90%
     align: center
     caption: '〈섬웨어 오버 더 레인보우〉 설치전경 광주비엔날레 2018'
     caption_align: center
@@ -21,7 +21,7 @@ images:
 
   - file: somewhere-over-the-rainbow-installation.jpg
     type: installation
-    caption: '〈섬웨어 오버 더 레인보우〉 상세뷰 2018'
+    caption: '〈섬웨어 오버 더 레인보우〉 2018'
     caption_align: center
     caption_position: bottom
 
@@ -43,7 +43,7 @@ images:
     type: detail
     width: 70%
     align: center
-    caption: '〈에폭시 필름〉 상세뷰 2018'
+    caption: '〈에폭시 필름〉2018'
     caption_align: center
     caption_position: bottom
 
